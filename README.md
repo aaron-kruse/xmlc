@@ -67,7 +67,7 @@ The Go implementation does not require any prerequisite installations.
 1. Use the web interface for "Save Configuration" to retrieve the encrypted `config.dat` file
 2. Run `go run xmlc.go config.dat config.xml` to decrypt `config.dat` into `config.xml`
 3. Make changes to `config.xml` as desired
-4. Run `go run xmlc.py -c config.xml config.dat` to encrypt `config.xml` back into `config.dat`
+4. Run `go run xmlc.go -c config.xml config.dat` to encrypt `config.xml` back into `config.dat`
 5. Use the web interface for "Load Configuration" to load the modified configuration
 
 ## Configuration Editing
